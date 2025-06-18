@@ -20,7 +20,7 @@ form {
     font-family: "karlabold";
     font-weight: lighter;
     border-radius: 10px;
-    height: 70vh;
+    padding: 10px;
 
 }
  @font-face {
@@ -32,6 +32,12 @@ form {
     font-weight: bold;
     font-size: x-large;
  }
- .form-label {
+ form label {
     font-size: 16px;
  }
+ form input {
+    border-radius: 7px;
+ }
+.box div {
+    border: 1px solid #117868;
+}

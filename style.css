@@ -20,7 +20,7 @@ form {
     font-family: "karlabold";
     font-weight: lighter;
     border-radius: 10px;
-    padding: 10px;
+    padding: 25px;
 }
  @font-face {
     font-family: "karlabold";
@@ -40,7 +40,7 @@ form {
     height: 25px;
  }
 .box div {
-    border: 1px solid #117868;
+    border: 1px solid #117868; 
 }
 form div {
     margin-bottom: 10px;
@@ -49,7 +49,18 @@ form div {
     display: flex;
     justify-content: space-between;
 }
-#email > div {
+#email > div > input{
     display: block;
-     width: 100%;
+    width: 100%;
 }
+#query >div {
+
+    display: flex;
+    justify-content: space-between;
+}
+form textarea {
+    border-radius: 7px;
+}
+
+
+

@@ -33,13 +33,23 @@ form {
  }
  form label {
     font-size: 16px;
+    display: block;
  }
  form input {
     border-radius: 7px;
+    height: 25px;
  }
 .box div {
     border: 1px solid #117868;
 }
 form div {
     margin-bottom: 10px;
+}
+#name > div {
+    display: flex;
+    justify-content: space-between;
+}
+#email > div {
+    display: block;
+     width: 100%;
 }

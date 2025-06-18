@@ -18,3 +18,9 @@ main{
 form {
     background-color: #ffffff;
 }
+ @font-face {
+    font-family: "karlabold";
+    src: url(./assets/fonts/Karla-VariableFont_wght.ttf);
+    font-weight: bold;
+    
+ }

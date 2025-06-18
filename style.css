@@ -19,6 +19,8 @@ form {
     background-color: #ffffff;
     font-family: "karlabold";
     font-weight: lighter;
+    border-radius: 10px;
+    height: 70vh;
 
 }
  @font-face {
@@ -29,4 +31,7 @@ form {
     font-family: "karlabold";
     font-weight: bold;
     font-size: x-large;
+ }
+ .form-label {
+    font-size: 16px;
  }

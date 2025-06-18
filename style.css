@@ -37,7 +37,7 @@ form {
  }
  form input {
     border-radius: 7px;
-    height: 25px;
+    /* height: 25px; */
  }
 .box div {
     border: 1px solid #117868; 
@@ -53,10 +53,10 @@ form div {
     display: block;
     width: 100%;
 }
-#query >div {
+#query > div > div {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
 }
 form textarea {
     border-radius: 7px;
@@ -65,6 +65,9 @@ form textarea {
     width: 100%;
     background-color: #117868;
     color: #ffffff;
+}
+#checkbox > div {
+    display: flex;
 }
 
 

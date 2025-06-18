@@ -61,6 +61,10 @@ form div {
 form textarea {
     border-radius: 7px;
 }
-
+.submit {
+    width: 100%;
+    background-color: #117868;
+    color: #ffffff;
+}
 
 

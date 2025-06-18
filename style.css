@@ -17,10 +17,16 @@ main{
 }
 form {
     background-color: #ffffff;
+    font-family: "karlabold";
+    font-weight: lighter;
+
 }
  @font-face {
     font-family: "karlabold";
     src: url(./assets/fonts/Karla-VariableFont_wght.ttf);
+    }
+ header {
+    font-family: "karlabold";
     font-weight: bold;
-    
+    font-size: x-large;
  }

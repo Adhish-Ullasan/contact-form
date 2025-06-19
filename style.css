@@ -32,19 +32,20 @@ form {
     font-size: 20px;
  }
  form label {
-    font-size: 16px;
+    font-size: 10px;
     display: block;
  }
  form input {
-    border-radius: 7px;
-    /* height: 25px; */
+    border-radius: 5px;
+    height: 25px;
+    border: 1px solid #117868;
  }
  .radio-box {
     display: flex;
  }
 .radio-box div {
     border: 1px solid #117868; 
-    border-radius: 7px;
+    border-radius: 5px;
  
 }
 form div {
@@ -81,4 +82,8 @@ form textarea {
 }
 .star {
     color: #117868;
+}
+#checkbox > div {
+    display: flex;
+    align-items: center;
 }

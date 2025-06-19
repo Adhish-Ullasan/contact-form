@@ -39,8 +39,13 @@ form {
     border-radius: 7px;
     /* height: 25px; */
  }
-.box div {
+ .radio-box {
+    display: flex;
+ }
+.radio-box div {
     border: 1px solid #117868; 
+    border-radius: 7px;
+ 
 }
 form div {
     margin-bottom: 10px;
@@ -54,9 +59,8 @@ form div {
     width: 100%;
 }
 #query > div > div {
-
-    display: flex;
-    justify-content: flex-start;
+    /* display: inline-block; */
+    justify-content: space-between;
 }
 form textarea {
     border-radius: 7px;
@@ -69,5 +73,12 @@ form textarea {
 #checkbox > div {
     display: flex;
 }
-
-
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction:row;
+}
+.star {
+    color: #117868;
+}

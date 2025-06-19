@@ -6,7 +6,7 @@ body {
     /* background-color: ; */
 /* } */
 main{
-    background-color:white ;
+    /* background-color:white ; */
     background-color:rgb(228,244,228);
     display: flex;
     flex-direction:column;
@@ -75,6 +75,7 @@ form div {
 }
 form textarea {
     border-radius: 7px;
+    width: 100%;
 }
 .submit {
     width: 100%;
@@ -131,4 +132,11 @@ input[type="radio"]:active{
         row-gap: 5px;
 
     }
+
+    main {
+        height: auto;
+        padding: 1rem;
+    }
+
 }
+

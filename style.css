@@ -40,18 +40,20 @@ form {
     font-weight: 500;
  }
  form input {
-    border-radius: 5px;
-    height: 25px;
-    border: 1px solid #117868;
- }
- .radio-box {
-    display: flex;
-    gap: 15px;
+     border-radius: 5px;
+     height: 25px;
+     border: 1px solid #117868;
+    }
+    .radio-box {
+        display: flex;
+        gap: 15px;
  }
 .radio-box div {
     border: 1px solid #117868; 
     border-radius: 5px;
     flex-basis: 100%;
+    display :flex;
+    justify-content: flex-start;
  
 }
 form div {
@@ -90,6 +92,7 @@ form textarea {
     align-items: center;
     justify-content: space-between;
     flex-direction:row;
+
 }
 .star {
     color: #117868;
@@ -104,5 +107,4 @@ form textarea {
 #name > div > div > input {
     width: 100%;
 }
-    
 

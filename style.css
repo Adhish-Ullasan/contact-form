@@ -62,7 +62,7 @@ form div {
 #name > div {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    column-gap: 20px;
    
 }
 #email > div > input{
@@ -117,4 +117,18 @@ form textarea {
 input[type="radio"]:active{
     color: #117868;
 } */
+@media screen and (max-width: 437px) {
+    
+    #name > div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
 
+    #query > div > div {
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+
+    }
+}

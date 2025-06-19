@@ -13,53 +13,51 @@
             <section id="name">
                 <div>
                     <div>
-                        <label for="first_name">First Name</label>
+                        <label for="first_name">First Name<span class="star">*</span></label>
                         <input type="text">
                     </div>
                     <div>
-                      <!-- <label for="middle_name">Middle Name</label>
-                      <input type="text"> -->
-                    </div>
-                    <div>
-                      <label for="last_name">Last Name</label>
+                      <label for="last_name">Last Name<span class="star">*</span></label>
                       <input type="text">
                     </div>
                 </div>
             </section>
         <section id="email">
             <div>
-                <label for="email">Email Address</label>
+                <label for="email">Email Address<span class="star">*</span></label>
                 <input type="text">
             </div>
         </section>
         <section id="query">
             <div class="box">
-             <label>Query Type</label>  
-                <div class="button">
+             <label>Query Type<span class="star">*</span></label>  
+               <div class="radio-box">
+                 <div class="choice">
                   <input type="radio" name="select" id="option-1" value="General Enquiry">
                   <label for="option-1">General Enquiry</label>
                 </div>
-                <div class="button">
+                <div class="choice">
                  <input type="radio" name="select" id="option-2" value="Support Enquiry">
                  <label for="option-2">Support Request</label>
                 </div>
+               </div>
             </div>
         </section>
         <section id="message">
             <div>
-                <p>Message</p>
+                <label for="textarea">Message<span class="star">*</span></label>
                 <textarea id="text" name="textarea" rows="3" cols="50"></textarea>
             </div>
         </section>
         <section id="checkbox">
             <div>
                 <input type="checkbox" name="checkbox" id="id">
-                <label for="id">I consent to being contacted by the team</label>
+                <label for="id">I consent to being contacted by the team<span class="star">*</span></label>
             </div>
          </section>
          <section id="submit"></section>
          <div>
-             <input type="submit" class="submit">
+             <button type="submit" class="submit">submit</button>
          </div>
          </main>
         </body>

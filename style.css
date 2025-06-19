@@ -87,7 +87,7 @@ form textarea {
 #checkbox > div {
     display: flex;
 }
-.button {
+.choice {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,6 +97,7 @@ form textarea {
 .star {
     color: #117868;
 }
+
 #checkbox > div {
     display: flex;
     align-items: center;
@@ -104,7 +105,16 @@ form textarea {
 #name > div > div {
     flex-basis: 100%;
 }
+
 #name > div > div > input {
     width: 100%;
 }
+
+/* input[type="radio"]:focus {
+    color: rgba(224,241,231,255) ;
+}
+
+input[type="radio"]:active{
+    color: #117868;
+} */
 

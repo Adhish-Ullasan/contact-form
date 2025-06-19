@@ -34,6 +34,10 @@ form {
  form label {
     font-size: 10px;
     display: block;
+    padding: 7px;
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 500;
  }
  form input {
     border-radius: 5px;
@@ -54,6 +58,8 @@ form div {
 #name > div {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
+   
 }
 #email > div > input{
     display: block;
@@ -70,6 +76,9 @@ form textarea {
     width: 100%;
     background-color: #117868;
     color: #ffffff;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
 }
 #checkbox > div {
     display: flex;
@@ -87,3 +96,11 @@ form textarea {
     display: flex;
     align-items: center;
 }
+#name > div > div {
+    flex-basis: 100%;
+}
+#name > div > div > input {
+    width: 100%;
+}
+    
+

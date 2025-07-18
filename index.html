@@ -15,10 +15,12 @@
                     <div>
                         <label for="first_name">First Name<span class="star">*</span></label>
                         <input type="text">
+                        <span class="errorText">First name is a required field</span>
                     </div>
                     <div>
                       <label for="last_name">Last Name<span class="star">*</span></label>
                       <input type="text">
+                      <span class="errorText">Second name is a required field</span>
                     </div>
                 </div>
             </section>
@@ -26,6 +28,7 @@
             <div>
                 <label for="email">Email Address<span class="star">*</span></label>
                 <input type="text">
+                <span class="errorText">Please enter your Email</span>
             </div>
         </section>
         <section id="query">
@@ -40,13 +43,15 @@
                  <input type="radio" name="select" id="option-2" value="Support Enquiry">
                  <label for="option-2">Support Request</label>
                 </div>
-               </div>
+            </div>
+            <span class="errorText">Select enquiry type</span>
             </div>
         </section>
         <section id="message">
             <div>
                 <label for="textarea">Message<span class="star">*</span></label>
                 <textarea id="text" name="textarea" rows="3" cols="50"></textarea>
+                <span class="errorText">Message cannot be empty</span>
             </div>
         </section>
         <section id="checkbox">
@@ -56,8 +61,9 @@
             </div>
          </section>
          <section id="submit"></section>
-         <div>
+         <div class="Button">
              <button type="submit" class="submit">submit</button>
+             <span class="errorText">Please complete the required fields before submitting</span>
          </div>
          </main>
         </body>

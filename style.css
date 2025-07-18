@@ -132,7 +132,7 @@ input[type="radio"]:active{
         row-gap: 5px;
 
     }
-
+    
     main {
         height: auto;
         padding: 1rem;
@@ -140,3 +140,19 @@ input[type="radio"]:active{
 
 }
 
+.errorText {
+
+    position: absolute;
+    color: red;
+    font-size: 8px;
+    
+}
+ .box >.errorText {
+    position: relative;
+    bottom: 26px;
+ }
+
+.Button .errorText {
+    position: relative;
+    bottom: 2px;
+}

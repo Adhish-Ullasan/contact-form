@@ -144,12 +144,12 @@ input[type="radio"]:active{
 
     position: absolute;
     color: red;
-    font-size: 8px;
+    font-size: 10px;
     
 }
  .box >.errorText {
     position: relative;
-    bottom: 26px;
+    bottom: 20px;
  }
 
 .Button .errorText {
@@ -158,4 +158,18 @@ input[type="radio"]:active{
 
 input {
     margin-bottom: 1px;
+}
+
+/* Basic styling for error messages */
+.errorText {
+    color: red;
+    /* font-size: 0.85em; */
+    display: none; /* Hidden by default */
+    /* margin-top: 5px; */
+}
+
+/* Optional: Highlight invalid fields */
+input:invalid:not(:placeholder-shown),
+textarea:invalid:not(:placeholder-shown) {
+    border: 1px solid red;
 }
